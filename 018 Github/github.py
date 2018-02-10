@@ -35,7 +35,7 @@ class GithubSpider(scrapy.Spider):
                                          formdata={'utf8': '✓',
                                                    'authenticity_token': authenticity_token,
                                                    'login': '512331228@qq.com',
-                                                   'password': 'Lry0218@0129!'},
+                                                   'password': 'xxxxxxxx'},
                                          callback=self.github_after,
                                          dont_click=True,
                                          )
